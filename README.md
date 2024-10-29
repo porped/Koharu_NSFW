@@ -14,7 +14,7 @@ pip install ultralytics
 If you have an NVIDIA GPU and want to leverage CUDA, install PyTorch with GPU support: Follow instructions at PyTorch.
 
 ```bash
-my-project/
+Koharu-NSFW/
 │
 ├── test_image/
 │   ├── test_000.jpg
