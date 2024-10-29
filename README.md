@@ -14,6 +14,7 @@ OR run command to install from requirements.txt
 If you have an NVIDIA GPU and want to leverage CUDA, install PyTorch with GPU support: Follow instructions at PyTorch.
 
 Download the model from: https://drive.google.com/drive/folders/1x1OD9XTNj5KMoKoAUEYEBzY1Y1VK2n6z?usp=sharing
+The YOLO model training report: https://wandb.ai/jirasin-asw/NSFW%20filter/reports/NSFW-filter-report--Vmlldzo5OTM2MzM5
 
 ## Project Structure
 ```bash
