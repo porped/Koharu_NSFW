@@ -1,4 +1,4 @@
-# Koharu_NSFW
+# Weebo_NSFW
 This is an Image classification project for detecting NSFW image/content based on YOLOv8. And the TensorFlow 2 for image classify the drawing image (anime, waifu game) and the real picture (person, animal, etc.)
 
 ## Installation
