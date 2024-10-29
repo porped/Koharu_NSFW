@@ -13,9 +13,11 @@ OR run command to install from requirements.txt
 (Optional) GPU Support
 If you have an NVIDIA GPU and want to leverage CUDA, install PyTorch with GPU support: Follow instructions at PyTorch.
 
+Download the model from: https://drive.google.com/drive/folders/1x1OD9XTNj5KMoKoAUEYEBzY1Y1VK2n6z?usp=sharing
+
 ## Project Structure
 ```bash
-Koharu-NSFW/
+Weebo-NSFW/
 │
 ├── test_image/
 │   ├── test_000.jpg
@@ -31,12 +33,14 @@ Koharu-NSFW/
 ```
 
 ## Usage
-1. Run the following command to classify images:
+0. Download the model from Google drive link: https://drive.google.com/drive/folders/1x1OD9XTNj5KMoKoAUEYEBzY1Y1VK2n6z?usp=sharing.
+1. Place all model in folder "Weebo-NSFW/models"
+2. Run the following command to classify images:
 ```bash
 python classify_anime-human.py
 python classify_YOLO_NSFW.py
 ```
-2. Or place your test images inside the test_image/ folder and run the command.
+3. Or place your test images inside the test_image/ folder and run the command.
 The results will be saved in the output/classified_results/ folder.
 ```bash
 output/
