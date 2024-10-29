@@ -1,5 +1,5 @@
 # Weebo_NSFW
-This is an Image classification project for detecting NSFW image/content based on YOLOv8. And the TensorFlow 2 for image classify the drawing image (anime, waifu game) and the real picture (person, animal, etc.)
+This is an Image classification project for detecting NSFW image/content based on YOLOv8. And the TensorFlow 2 for image classify the drawing image (anime, waifu game) and the real picture (person, animal, etc.). This project serves as a personal project for me. If you encounter any issues, feel free to try fixing them on your own. Happy coding!
 
 ## Installation
 
@@ -34,7 +34,7 @@ Weebo-NSFW/
 
 ## Usage
 0. Download the model from Google drive link: https://drive.google.com/drive/folders/1x1OD9XTNj5KMoKoAUEYEBzY1Y1VK2n6z?usp=sharing.
-1. Place all model in folder "Weebo-NSFW/models"
+1. Place all model in folder "Weebo-NSFW/models" (May be you should create that folder by yourself)
 2. Run the following command to classify images:
 ```bash
 python classify_anime-human.py
@@ -68,3 +68,5 @@ output/
 
 Example Output
 Processed images will contain bounding boxes showing the detected content. Each image will have a corresponding .txt file with the detection results.
+
+P.S. All model don't train with Furry content. Please not blame my model if your Furry content can't to predicted.
