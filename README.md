@@ -10,6 +10,7 @@ pip install tensorflow
 pip install ultralytics
 ```
 OR run command to install from requirements.txt
+
 (Optional) GPU Support
 If you have an NVIDIA GPU and want to leverage CUDA, install PyTorch with GPU support: Follow instructions at PyTorch.
 
