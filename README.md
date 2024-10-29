@@ -9,10 +9,11 @@ Make sure Python 3.8+ is installed, then install the required package:
 pip install tensorflow
 pip install ultralytics
 ```
-
+OR run command to install from requirements.txt
 (Optional) GPU Support
 If you have an NVIDIA GPU and want to leverage CUDA, install PyTorch with GPU support: Follow instructions at PyTorch.
 
+## Project Structure
 ```bash
 Koharu-NSFW/
 │
@@ -24,12 +25,42 @@ Koharu-NSFW/
 │   ├── TF2_human_anime_model.h5
 │   └── NSFW_YOLOv8.pt
 │
-├── output_anime-human/
-│   ├── anime/
-│   │   ├── test_000.jpg
-│   │   └── test_001.jpg
-│   └── human/
-│       └── test_002.jpg
 ├── classify_anime-human.py
 ├── classify_YOLO_NSFW.py
 └── requirements.txt
+```
+
+## Usage
+1. Run the following command to classify images:
+```bash
+python classify_anime-human.py
+python classify_YOLO_NSFW.py
+```
+2. Or place your test images inside the test_image/ folder and run the command.
+The results will be saved in the output/classified_results/ folder.
+```bash
+output/
+│
+├── classfied_anime-human/
+│   │
+│   ├── anime/
+│   │   ├── test_000.jpg
+│   │   └── test_001.jpg
+│   │
+│   └── human/
+│       └── test_002.jpg
+│
+└── classfied_NSFW-YOLO/
+    │
+    └── classified_results/
+        │
+        ├── labels
+        │   ├── test_000.txt
+        │   └── test_001.txt
+        │
+        ├── test_000.jpg
+        └── test_001.jpg
+```
+
+Example Output
+Processed images will contain bounding boxes showing the detected content. Each image will have a corresponding .txt file with the detection results.
